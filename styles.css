@@ -1,0 +1,58 @@
+.responsable {
+    float: left;
+    background-color: rgb(240, 240, 245);
+    width: 49.3%;
+    height: 244.8px;
+    text-align: center;
+    border-style: double;
+    border-color: black;
+}
+
+.responsable li {
+    list-style: none;
+}
+
+.factura {
+    float: right;
+    background-color: rgb(240, 240, 245);
+    width: 49.3%;
+    text-align: center;
+    border-style: double;
+    border-color: black;
+}
+
+.factura li {
+    list-style: none;
+}
+
+.cliente {
+    text-align: left;
+    clear:both;
+    background:white;
+    border-style: double;
+    border-color: black;
+    width: 100%;
+}
+
+.condiciones {
+    clear:both;
+    background:white;
+    border-style: double;
+    border-color: black;
+    width: 100%;
+}
+
+#miTabla tbody td {
+    text-align:right;
+    width: 100%;
+}
+#miTabla tbody td:nth-child(1) {
+    text-align:left;
+}
+#miTabla th,#miTabla td  {
+    padding:1px 10px;border:1px solid #aaa;
+}
+
+
+
+

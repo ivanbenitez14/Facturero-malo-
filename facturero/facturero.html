@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+ 
+<body>
+        <div class="responsable">
+            <h1>RESPONSABLE MONOTRIBUTO</h1>
+            <form action="forma" method="post">
+                <ul>
+                    <li>
+                        <label for="nombre">Nombre de la empresa:</label>
+                        <input type="text" id="nombre" name="nombre_empresa">
+                    </li>
+                    <li>
+                        <label for="responsable">Responsable de la empresa:</label>
+                        <input type="text" id="res" name="responsable_empresa">
+                    </li>
+                    <li>
+                        <label for="domicilio">Domicilio fiscal:</label>
+                        <input type="text" id="domicilio" name="domicilio_fiscal">
+                    </li>
+                    <li>
+                        <label for="codigo">Código postal:</label>
+                        <input type="text" id="codigo" name="codigo_postal">
+                    </li>
+                    <li>
+                        <label for="provincia">Provincia:</label>
+
+                        <select id="provincias">
+                            <option value="seleccione una provincia">--Seleccione una provincia--</option>
+                            <option value="buenos aires">Buenos Aires</option>
+                            <option value="catamarca">Catamarca</option>
+                            <option value="chaco">Chaco</option>
+                            <option value="chubut">Chubut</option>
+                            <option value="córdoba">Córdoba</option>
+                            <option value="corrientes">Corrientes</option>
+                            <option value="entre ríos">Entre Ríos</option>
+                            <option value="formosa">Formosa</option>
+                            <option value="jujuy">Jujuy</option>
+                            <option value="la pampa">La Pampa</option>
+                            <option value="la rioja">La Rioja</option>
+                            <option value="mendoza">Mendoza</option>
+                            <option value="misiones">Misiones</option>
+                            <option value="neuquén">Neuquén</option>
+                            <option value="río negro">Río Negro</option>
+                            <option value="salta">Salta</option>
+                            <option value="san juan">San Juan</option>
+                            <option value="san luis">San Luis</option>
+                            <option value="santa cruz">Santa Cruz</option>
+                            <option value="santa fe">Santa Fe</option>
+                            <option value="santiago del estero">Santiago del Estero</option>
+                            <option value="tierra del fuego">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                            <option value="tucumán">Tucumán</option>
+                        </select>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="factura">
+            <h1>FACTURA</h1>
+            <form action="forma" method="post">
+                <ul>
+                    <li>
+                        <label for="factura">Tipo de factura:</label>
+
+                        <select id="factur">
+                            <option value="seleccione un tipo de factura">--Seleccione un tipo de factura--</option>
+                            <option value="a">A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="m">M</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="facturero">N°:</label>
+
+                        <select id="facture">
+                            <option value="seleccione un número de facturero">--Seleccione un numero de facturero--</option>
+                            <option value="1">0001</option>
+                            <option value="2">0002</option>
+                            <option value="3">0003</option>
+                            <option value="4">0004</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="numero">Número de factura:</label>
+                        <input type="number" id="factura" name="numero_factura">
+                    </li>
+                    <li>
+                        <label for="factura">Fecha de emisión de factura:</label>
+                        <input type="date" id="factura" name="emision_factura">
+                    </li>
+                    <li>
+                        <label for="cuit">C.U.I.T:</label>
+                        <input type="text" id="cuit" name="numero_cuit">
+                    </li>
+                    <li>
+                        <label for="responsable">Ing. Brutos:</label>
+                        <input type="text" id="res" name="responsable_empresa">
+                    </li>
+                    <li>
+                        <label for="nombre">Inicio de Actividades:</label>
+                        <input type="date" id="nombre" name="nombre_empresa">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    <div class="cliente" id="cliente">
+        <h2 align="center">DATOS DEL CLIENTE</h2>
+        <form action="forma" method="post">
+            <ul>
+                <li>
+                    <label for="señor">Señor/a:</label>
+                    <input type="text" id="señores" name="señor">
+                </li>
+                <li>
+                    <label for="domicilio">Domicilio:</label>
+                    <input type="text" id="domicilio" name="domiciliodecliente">
+                </li>
+                <li>
+                    <label for="situacion">Situación frente al I.V.A:</label>
+
+                    <select id="iva">
+                        <option value="seleccione un número de facturero">--Seleccione situación--</option>
+                        <option value="inscripto">Responsable Inscripto</option>
+                        <option value="monotributo">Resposable Monotributo</option>
+                        <option value="social">Monotributista Social</option>
+                        <option value="final">Consumidor Final</option>
+                        <option value="eventual">Pequeño Contribuyente Eventual</option>
+                        <option value="exento">Exento</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="situacion"></label>
+
+                    <select id="situaciones">
+                        <option value="seleccione un tipo de factura">--Seleccione un tipo de identidad--</option>
+                        <option value="dni">D.N.I</option>
+                        <option value="cuit">C.U.I.T</option>
+                        <option value="cuil">C.U.I.L</option>
+                        <option value="cdi">C.D.I</option>
+                        <option value="pasaporte">Pasaporte</option>
+                        <option value="ci">C.I</option>
+                    </select>
+                    <label for="numero">N°:</label>
+                    <input type="text" id="factura" name="numero_factura">
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div class="condiciones">
+         <h4>CONDICIONES DE VENTA</h4>
+         <form action="forma" method="post">
+             <ul>
+                 <li>
+                     <label for="medio"></label>
+
+                     <select id="pago">
+                         <option value="seleccione un tipo de factura">--Seleccione medio de pago--</option>
+                         <option value="contado">CONTADO</option>
+                         <option value="tarjeta">TARJETA</option>
+                         <option value="otro">OTRO</option>
+                     </select>
+                 </li>
+                 <li>
+                     <label for="numero">REMITO N°:</label>
+                     <input type="number" id="factura" name="numero_factura">
+                 </li>
+             </ul>
+         </form>
+
+
+         <table id="miTabla">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Importe</th>
+                    <th> Total </th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan=3 align="center">Importe Total</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>remera</td>
+                    <td>2</td>
+                    <td>700</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>pantalon</td>
+                    <td>1</td>
+                    <td>2300</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>zapato</td>
+                    <td>3</td>
+                    <td>4000</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+         
+        <p>
+            <button>Calcular</button>
+        </p>
+        
+        
+        <!--venga el script-->
+        <script>
+        document.getElementsByTagName("button")[0].addEventListener("click",calcular);
+         
+        /**
+         * funcion que realiza los calculos
+         */
+        function calcular() {
+
+            var filas=document.querySelectorAll("#miTabla tbody tr");
+         
+            var total=0;
+         
+            filas.forEach(function(e) {
+         
+                var columnas=e.querySelectorAll("td");
+         
+                var cantidad=parseFloat(columnas[1].textContent);
+                var importe=parseFloat(columnas[2].textContent);
+         
+                columnas[3].textContent=(cantidad*importe).toFixed(2);
+         
+                total+=cantidad*importe;
+            });
+         
+            var filas=document.querySelectorAll("#miTabla tfoot tr td");
+            filas[1].textContent=total.toFixed(2);
+        }
+        </script>
+    </div>
+    <br>
+    <script>
+        function imprimirFactura() {
+            if(Window.print) window.print()
+            else alert("Presione  la tecla Ctrl + la letra P.");
+        }
+    </script>
+    <p><input type="button" name="imprimir" value="Imprimir" onclick="javascript:imprimirFactura();"></p>  
+
+
+</body>
+</html>

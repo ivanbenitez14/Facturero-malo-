@@ -1,0 +1,9 @@
+http://www.sistemasagiles.com.ar/trac/wiki/PyAfipWs#EjemploenVisualBasicVB56
+http://www.sistemasagiles.com.ar/trac/wiki/PyAfipWs
+http://www.sistemasagiles.com.ar/trac/wiki/ProyectoWSFEv1
+https://github.com/reingart/pyafipws/releases
+https://github.com/reingart/pyafipws/blob/master/ejemplos/wsfev1/wsfev1.cs
+https://github.com/reingart
+https://groups.google.com/forum/#!forum/pyafipws
+http://www.sistemasagiles.com.ar/trac/wiki/ConsultaOperacionesCambiarias
+http://www.afip.gob.ar/ws/documentacion/wsaa.asp
